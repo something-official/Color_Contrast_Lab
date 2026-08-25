@@ -1,0 +1,13 @@
+:root { font-family: Inter, system-ui, sans-serif; color: #111827; background: #e2e8f0; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+.lab { width: min(42rem, calc(100% - 2rem)); margin: 8vh auto; padding: clamp(1.25rem, 5vw, 3rem); border-radius: 1.5rem; background: #f8fafc; box-shadow: 0 1.5rem 4rem rgba(15,23,42,.15); }
+.eyebrow { color: #0f766e; font-size: .7rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+h1 { margin: .25rem 0 .75rem; font-size: clamp(2rem, 7vw, 4rem); letter-spacing: -.06em; }
+p { color: #475569; line-height: 1.6; }
+.controls { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 2rem 0; }
+label { display: grid; gap: .5rem; font-weight: 700; }
+input { width: 100%; min-height: 3rem; border: 1px solid #cbd5e1; border-radius: .75rem; cursor: pointer; }
+.result { padding: 1.25rem; border-radius: 1rem; color: #fff; background: #111827; }
+.result strong { display: block; font-size: clamp(2rem, 8vw, 4rem); letter-spacing: -.06em; }
+@media (max-width: 38rem) { .controls { grid-template-columns: 1fr; } }

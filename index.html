@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Contrast Lab</title>
+  </head>
+  <body>
+    <main class="lab" aria-labelledby="title">
+      <p class="eyebrow">Accessibility utility</p>
+      <h1 id="title">Color Contrast Lab</h1>
+      <p>Choose two colors and see whether the pair gives text enough contrast.</p>
+      <div class="controls">
+        <label>Text color <input id="foreground" type="color" value="#111827" /></label>
+        <label>Surface color <input id="background" type="color" value="#f8fafc" /></label>
+      </div>
+      <section id="result" class="result" aria-live="polite"></section>
+    </main>
+  </body>
+</html>
